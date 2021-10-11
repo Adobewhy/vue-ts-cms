@@ -10,6 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default defineComponent({
   name: 'App',
+
   components: {
     HelloWorld
   }
@@ -24,5 +25,6 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 </style>
